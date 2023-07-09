@@ -1,0 +1,97 @@
+#root {
+  max-width: 550px;
+  width: 75%;
+  max-height: 868px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: #23252C;
+  ;
+}
+
+.profile-pic {
+
+  width: 238px;
+  height: 238px;
+  will-change: filter;
+  /* transition: filter 300ms; */
+  background-color: rgb(120, 109, 5);
+}
+
+.card {
+  background-color: #F5F5F5;
+  width: 238px;
+  height: 780px;
+  margin: auto;
+}
+
+.name {
+  color: #2B283A;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+.job-title {
+  margin-top: 0;
+  color: #F47D27;
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.p-web {
+  margin-top: 0;
+  color: #4A4E74;
+  text-align: center;
+  font-size: 0.64rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.div-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+button {
+
+
+  border: 1px solid black;
+}
+.btn-col {
+  background-color:#297FE5;
+  color: #FFF;
+}
+button {
+  width: 90px;
+  padding: 9px 10px 9px 7px;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1rem;
+  display: flex;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+
+  border-radius: 3px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+
+}
+
+button img {
+  margin-right: 6px;
+}
+
+
+/* button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+} */
